@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T08:42:12.141Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="Dn71-aCcvjQygV9bMHWT" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-28T08:45:12.127Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="qmU6MxwRsy_g6kTFi9dY" version="12.1.7" type="github" pages="1">
   <diagram id="dwvzJ9ZSr5rlT99AuMPi" name="第 1 页">
     <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
             <mxPoint x="560" y="270" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="icY077CcPCAfV6TuevYq-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AbstractPlugin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginJobConf:Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginConf:Configuration&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ method(): Type&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="200" width="300" height="90" as="geometry"/>
+        <mxCell id="icY077CcPCAfV6TuevYq-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AbstractPlugin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginJobConf:Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginConf:Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;peerPluginJobConf:Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;peerPluginName:String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="200" width="300" height="140" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
