@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T09:16:32.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="LgtNSJd_CKfKiPqQVO0A" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-28T09:17:07.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="fuFJeZxTxMtM2s0G72x7" version="12.1.7" type="github" pages="1">
   <diagram id="dwvzJ9ZSr5rlT99AuMPi" name="第 1 页">
     <mxGraphModel dx="2115" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -80,7 +80,7 @@
             <mxPoint x="510" y="120" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="icY077CcPCAfV6TuevYq-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TxtReader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Job:Reader.Job&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Task:Reader.Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="icY077CcPCAfV6TuevYq-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TxtFileReader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Job:Reader.Job&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Task:Reader.Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="-10" y="559" width="180" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-30" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.456;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-29" target="icY077CcPCAfV6TuevYq-4">
@@ -89,7 +89,7 @@
             <mxPoint x="270" y="480" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="icY077CcPCAfV6TuevYq-31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TxtWriter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Job:Writer.Job&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Task:Writer.Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
+        <mxCell id="icY077CcPCAfV6TuevYq-31" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TxtFileWriter&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Job:Writer.Job&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Task:Writer.Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="559" width="180" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-32" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-31" target="icY077CcPCAfV6TuevYq-3">
