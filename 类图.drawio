@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-28T09:17:07.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="fuFJeZxTxMtM2s0G72x7" version="12.1.7" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-10-28T09:24:32.352Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="GH4OyGUQJ3NPHL5phoE2" version="12.1.7" type="github" pages="1">
   <diagram id="dwvzJ9ZSr5rlT99AuMPi" name="第 1 页">
     <mxGraphModel dx="2115" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="750" y="356" width="160" height="110" as="geometry"/>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-4" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;Reader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Job: class&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Task:class&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="356" width="160" height="120" as="geometry"/>
+          <mxGeometry x="485" y="356" width="160" height="120" as="geometry"/>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-4" target="icY077CcPCAfV6TuevYq-1">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -26,34 +26,37 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-7" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;br&gt;&lt;b&gt;AbstractJobPlugin&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="696" width="180" height="70" as="geometry"/>
+          <mxGeometry x="-5" y="660" width="180" height="70" as="geometry"/>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-11" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AbstractTaskPlugin&lt;/b&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="696" width="180" height="70" as="geometry"/>
+          <mxGeometry x="-195" y="660" width="180" height="70" as="geometry"/>
         </mxCell>
-        <mxCell id="icY077CcPCAfV6TuevYq-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-18" target="icY077CcPCAfV6TuevYq-1">
+        <mxCell id="icY077CcPCAfV6TuevYq-15" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-18" target="icY077CcPCAfV6TuevYq-1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="560" y="366" as="sourcePoint"/>
             <mxPoint x="570" y="346" as="targetPoint"/>
+            <Array as="points">
+              <mxPoint x="480" y="200"/>
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-16" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-7" target="icY077CcPCAfV6TuevYq-18">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="280" y="646" as="sourcePoint"/>
-            <mxPoint x="560" y="416" as="targetPoint"/>
+            <mxPoint x="-275" y="610" as="sourcePoint"/>
+            <mxPoint x="5" y="380" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-17" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-11" target="icY077CcPCAfV6TuevYq-18">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="560" y="556" as="sourcePoint"/>
-            <mxPoint x="560" y="416" as="targetPoint"/>
+            <mxPoint x="5" y="520" as="sourcePoint"/>
+            <mxPoint x="5" y="380" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-18" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;AbstractPlugin&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginJobConf:Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ pluginConf:Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;peerPluginJobConf:Configuration&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+&amp;nbsp;peerPluginName:String&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="410" y="356" width="300" height="160" as="geometry"/>
+          <mxGeometry x="-145" y="320" width="300" height="160" as="geometry"/>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-19" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;MysqlReader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Job:Reader.Job&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Task:Reader.Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="559" width="180" height="90" as="geometry"/>
+          <mxGeometry x="475" y="559" width="180" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-20" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-19" target="icY077CcPCAfV6TuevYq-4">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -72,16 +75,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-26" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;Interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Pluginable&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="465" y="40" width="190" height="60" as="geometry"/>
+          <mxGeometry x="-90" y="110" width="190" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="icY077CcPCAfV6TuevYq-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-1" target="icY077CcPCAfV6TuevYq-26">
+        <mxCell id="icY077CcPCAfV6TuevYq-27" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-18" target="icY077CcPCAfV6TuevYq-26">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="560" y="160" as="sourcePoint"/>
             <mxPoint x="510" y="120" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-29" value="&lt;p style=&quot;margin: 0px ; margin-top: 4px ; text-align: center&quot;&gt;&lt;b&gt;TxtFileReader&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Job:Reader.Job&lt;/p&gt;&lt;p style=&quot;margin: 0px ; margin-left: 4px&quot;&gt;+ Task:Reader.Task&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="559" width="180" height="90" as="geometry"/>
+          <mxGeometry x="285" y="559" width="180" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="icY077CcPCAfV6TuevYq-30" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;exitX=0.456;exitY=-0.022;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="icY077CcPCAfV6TuevYq-29" target="icY077CcPCAfV6TuevYq-4">
           <mxGeometry width="160" relative="1" as="geometry">
