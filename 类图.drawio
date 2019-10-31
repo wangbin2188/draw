@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-10-31T12:27:24.302Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="EZ8Z2UFakDptFcPbDQQ1" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-10-31T12:28:15.005Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="cYN2ycbcubYCrI0pLU1E" version="12.1.9" type="github" pages="2">
   <diagram id="dwvzJ9ZSr5rlT99AuMPi" name="dataX类图-1">
     <mxGraphModel dx="2115" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -106,7 +106,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="i8oq0F-yW_4LkSNv0MJ2" name="dataX-框架类图">
-    <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="AaScqXBLyXnoLoBDGlaj-0"/>
         <mxCell id="AaScqXBLyXnoLoBDGlaj-1" parent="AaScqXBLyXnoLoBDGlaj-0"/>
