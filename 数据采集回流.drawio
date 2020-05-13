@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-05-13T08:41:55.718Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="S0z6aRLWDS3tgT_SbHDr" version="13.1.0" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-05-13T11:03:49.863Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15" etag="UAVxE3INoa5G1qFKClim" version="13.1.1" type="github" pages="2">
   <diagram id="hAr6CDP33GyeZNMjy5qR" name="回流">
     <mxGraphModel dx="946" dy="1831" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -46,23 +46,17 @@
         <mxCell id="igZO0AMjIh1gHoKqFqB2-18" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="322.5" y="60" width="120" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="igZO0AMjIh1gHoKqFqB2-7" value="失败重试" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="igZO0AMjIh1gHoKqFqB2-18" vertex="1">
+        <mxCell id="igZO0AMjIh1gHoKqFqB2-7" value="更新式写入" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="igZO0AMjIh1gHoKqFqB2-18" vertex="1">
           <mxGeometry y="63" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="igZO0AMjIh1gHoKqFqB2-12" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_mirror;" parent="igZO0AMjIh1gHoKqFqB2-18" vertex="1">
           <mxGeometry x="26.5" y="13" width="60" height="59" as="geometry" />
         </mxCell>
-        <mxCell id="igZO0AMjIh1gHoKqFqB2-21" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="498.5" y="110" width="80" height="87" as="geometry" />
-        </mxCell>
-        <mxCell id="igZO0AMjIh1gHoKqFqB2-22" value="" style="group" parent="igZO0AMjIh1gHoKqFqB2-21" vertex="1" connectable="0">
-          <mxGeometry x="-40" y="20" width="80" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="igZO0AMjIh1gHoKqFqB2-14" value="冲突避免" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="igZO0AMjIh1gHoKqFqB2-22" vertex="1">
-          <mxGeometry y="13" width="80" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="igZO0AMjIh1gHoKqFqB2-13" value="" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.databases.database_partition_3;" parent="1" vertex="1">
           <mxGeometry x="458.5" y="73" width="57" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="8WftR03cfVT1UNFW1D-W-1" value="PostgreSQL" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="467" y="143" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
